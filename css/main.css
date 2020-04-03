@@ -102,10 +102,17 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Lato', sans-serif;
+    padding: 2em;
+    font-size: 1.25em;
+    height: 100%;
+    background: #820263;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+    color: #F75C03;
 }
 
 .wrapper {
@@ -113,6 +120,9 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  border-top: 1px solid #04A777;
+  border-bottom: 1px solid #04A777;
+  padding: 25px 0px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -123,9 +133,11 @@ body {
   justify-content: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+}
+
+.div-1, .div-2 {
+    border-right: 1px solid #04A777;
+    padding-right: 20px;
 }
 
 
